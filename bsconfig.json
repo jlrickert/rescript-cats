@@ -1,6 +1,6 @@
 {
   "name": "rescript-cats",
-  "bsc-flags": ["-bs-no-version-header"],
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
   "sources": [
     {
       "dir": "src",
@@ -16,9 +16,24 @@
       "type": "dev"
     }
   ],
+  "suffix": ".mjs",
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
   "warnings": {
     "number": "+A",
     "error": "+A"
+  },
+  "gentypeconfig": {
+    "language": "typescript",
+    "shims": {},
+    "generatedFileExtension": ".gen.ts",
+    "module": "es6",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
   },
   "bs-dev-dependencies": []
 }

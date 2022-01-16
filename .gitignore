@@ -3,7 +3,10 @@
 .bsb.lock
 docs/
 node_modules/
-/lib/bs
-/lib/js/src
-/lib/js/tests/testHelpers.js
+dist/
+lib/bs
+lib/js/src
+lib/js/tests/testHelpers.js
+*.mjs
+*.gen.ts
 npm-debug.log
