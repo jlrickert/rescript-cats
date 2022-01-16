@@ -1,0 +1,24 @@
+{
+  "name": "rescript-cats",
+  "bsc-flags": ["-bs-no-version-header"],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "tests",
+      "type": "dev",
+      "subdirs": true
+    },
+    {
+      "dir": "examples",
+      "type": "dev"
+    }
+  ],
+  "warnings": {
+    "number": "+A",
+    "error": "+A"
+  },
+  "bs-dev-dependencies": []
+}
